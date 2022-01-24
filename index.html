@@ -7,12 +7,13 @@
     <title>Convention-center</title> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0a490a6746.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
-              <a class="navbar-brand" href="#">The Bangladesh Convention-center</a>
+              <a class="navbar-brand"  href="#"><h3>BD Convention-center</h3> </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -37,6 +38,7 @@
     </header>
     <!-- main  -->
     <main>
+      <!-- banner-area -->
       <section class="container">
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-indicators">
@@ -46,24 +48,27 @@
           </div>
           <div class="carousel-inner">
             <div class="carousel-item drk active">
-              <img src="images/banner.png" class="d-block w-100" alt="...">
+              <img src="images/b-11.png" class="d-block w-100" alt="...">
               <div class="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p>Some representative placeholder content for the first slide.</p>
+                <h1>Join luxary convention center</h1>
+                <p>here is now available special sevice</p>
+                <button type="button" class="btn btn-light text-info" > Book Now</button>
+              </div>
+            </div>
+            <div class="carousel-item drk text-white">
+              <img src="images/b-22.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h1>Join luxary convention center</h1>
+                <p>here is now available special sevice</p>
+                <button type="button" class="btn btn-light text-info">Book Now</button>
               </div>
             </div>
             <div class="carousel-item drk">
-              <img src="images/banner-2.jpg" class="d-block w-100" alt="...">
+              <img src="images/b-33.png" class="d-block w-100" alt="...">
               <div class="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
-                <p>Some representative placeholder content for the second slide.</p>
-              </div>
-            </div>
-            <div class="carousel-item drk">
-              <img src="images/banner.png" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
-                <p>Some representative placeholder content for the third slide.</p>
+                <h1>Join luxary convention center</h1>
+                <p>here is now available special sevice</p>
+                <button type="button" class="btn btn-light text-info">Book Now</button>
               </div>
             </div>
           </div>
@@ -77,10 +82,10 @@
           </button>
         </div>
       </section>
+      <!-- pricing-area  -->
     <div class="">
       <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
-        <h1 class="display-4 fw-normal">Pricing</h1>
-        <p class="fs-5 text-muted">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization.</p>
+        <h1 class="display-4 fw-normal py-5">Our Package Pricing</h1>
       </div>
     </div>
     <section>
@@ -89,17 +94,18 @@
           <div class="col">
             <div class="card mb-4 rounded-3 shadow-sm">
               <div class="card-header py-3">
-                <h4 class="my-0 fw-normal">Free</h4>
+                <h4 class="my-0 fw-normal">General</h4>
               </div>
-              <div class="card-body">
-                <h1 class="card-title pricing-card-title">$0<small class="text-muted fw-light">/mo</small></h1>
+              <div class="card-body text-start">
+                <h1 class="card-title pricing-card-title">$100<small class="text-muted fw-light">/day</small></h1>
                 <ul class="list-unstyled mt-3 mb-4">
-                  <li>10 users included</li>
-                  <li>2 GB of storage</li>
-                  <li>Email support</li>
-                  <li>Help center access</li>
+                  <li><i class="far fa-check-square p-2"></i>10 person fixd</li>
+                  <li><i class="far fa-check-square p-2"></i>no  security</li>
+                  <li><i class="far fa-check-square p-2"></i>WiFi support</li>
+                  <li><i class="far fa-check-square p-2"></i>self decoration</li>
+                  <li><i class="far fa-check-square p-2"></i>clean support</li>
                 </ul>
-                <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+                <button type="button" class="w-100 btn btn-lg btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Sign up for free</button>
               </div>
             </div>
           </div>
@@ -108,109 +114,187 @@
               <div class="card-header py-3">
                 <h4 class="my-0 fw-normal">Pro</h4>
               </div>
-              <div class="card-body">
-                <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small></h1>
+              <div class="card-body text-start">
+                <h1 class="card-title pricing-card-title">$200<small class="text-muted fw-light">/day</small></h1>
                 <ul class="list-unstyled mt-3 mb-4">
-                  <li>20 users included</li>
-                  <li>10 GB of storage</li>
-                  <li>Priority email support</li>
-                  <li>Help center access</li>
+                  <li><i class="far fa-check-square p-2"></i>20 person fixd</li>
+                  <li><i class="far fa-check-square p-2"></i>no  security</li>
+                  <li><i class="far fa-check-square p-2"></i>WiFi support</li>
+                  <li><i class="far fa-check-square p-2"></i>self decoration</li>
+                  <li><i class="far fa-check-square p-2"></i>clean support</li>
                 </ul>
-                <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+                <button type="button" class="w-100 btn btn-lg btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Get started</button>
               </div>
             </div>
           </div>
           <div class="col">
             <div class="card mb-4 rounded-3 shadow-sm border-primary">
-              <div class="card-header py-3 text-white bg-primary border-primary">
-                <h4 class="my-0 fw-normal">Enterprise</h4>
+              <div class="card-header py-3 text-white bg-primary border-primary pricing-header">
+                <h4 class="my-0 fw-normal">Pro Plus</h4>
+                <div class="pricing-ribbon">
+                  <p>Hot</p>
+                </div>
               </div>
-              <div class="card-body">
-                <h1 class="card-title pricing-card-title">$29<small class="text-muted fw-light">/mo</small></h1>
+
+              <div class="card-body text-start"> 
+                <h1 class="card-title pricing-card-title">$300<small class="text-muted fw-light">/day</small></h1>
                 <ul class="list-unstyled mt-3 mb-4">
-                  <li>30 users included</li>
-                  <li>15 GB of storage</li>
-                  <li>Phone and email support</li>
-                  <li>Help center access</li>
+                  <li><i class="far fa-check-square p-2"></i>40 person fixd</li>
+                  <li><i class="far fa-check-square p-2"></i> security support</li>
+                  <li><i class="far fa-check-square p-2"></i>WiFi support</li>
+                  <li><i class="far fa-check-square p-2"></i> decoration</li>
+                  <li><i class="far fa-check-square p-2"></i>clean support</li>
                 </ul>
-                <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+                  <button type="button" class="w-100 btn btn-lg btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Contact us</button>
+              <!-- Button trigger modal -->
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel"> Our pro plus ofeer now is runing.:</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                       <p>The Bangladesh Convention-center is redy to you.Book now</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">BookNow</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
           <div class="col">
             <div class="card mb-4 rounded-3 shadow-sm">
               <div class="card-header py-3">
-                <h4 class="my-0 fw-normal">Pro</h4>
+                <h4 class="my-0 fw-normal">Special</h4>
               </div>
-              <div class="card-body">
-                <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small></h1>
-                <ul class="list-unstyled mt-3 mb-4">
-                  <li>20 users included</li>
-                  <li>10 GB of storage</li>
-                  <li>Priority email support</li>
-                  <li>Help center access</li>
+              <div class="card-body text-start">
+                <h1 class="card-title pricing-card-title">$500<small class="text-muted fw-light">/day</small></h1>
+                <ul class="list-unstyled mt-3 mb-4 ">
+                  <li><i class="far fa-check-square p-2" ></i>100 person fixd</li>
+                  <li><i class="far fa-check-square p-2" ></i> security support</li>
+                  <li><i class="far fa-check-square p-2"></i>WiFi support</li>
+                  <li><i class="far fa-check-square p-2"></i> decoration</li>
+                  <li><i class="far fa-check-square p-2"></i>clean support</li>
                 </ul>
-                <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+                <button type="button" class="w-100 btn btn-lg btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Get started</button>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+   <!-- happy clinets area  -->
+    <section class="container">
+      <div class="happy-clinets-area my-5">
+        <h1 class="fq-header text-center p-3">Happy Clients sayes</h1>
+        <div class="card-group">
+          <div class="card p-2 g-2 text-center">
+            <p class="card-text ">This is a wonderful convention center. you can use it</p>
+            <img src="images/person 1.png" class="card-img- w-50 align-self-center " alt="...">
+            <div class="card-body "> 
+              <h5 class="card-title ">Jon wiliam</h5>
+              <p class="card-text"><small class="text-muted">Police</small></p>
+            </div>
+          </div>
+          <div class="card p-2 g- text-center">
+            <p class="card-text">This convention center is largest in the Asia</p>
+            <img src="images/person 2.png" class="card-img-top w-50 align-self-center" alt="...">
+            <div class="card-body ">
+              <h5 class="card-title">Md. jafor</h5>
+              <p class="card-text"><small class="text-muted">Teacher</small></p>
+            </div>
+          </div>
+          <div class="card p-2 g-2 text-center">
+            <p class="card-text">This is a a very nice place for me.</p>
+            <img src="images/person 3.png" class="card-img-top w-50 align-self-center" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Jos faria</h5>
+              <p class="card-text"><small class="text-muted">student</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- frequent-question-area -->
     <section>
-      <div class=" container question-area">
+      <div class=" container frequent-question-area my-5">
+        <h1 class="fq-header text-center p-3">Frequently Asked Questions</h1>
         <div class="row row-cols-1 row-cols-md-2 mb-3">
           <div class="col">
             <div class="accordion" id="accordionExample">
               <div class="accordion-item">
                 <h2 class="accordion-header" id="headingOne">
                   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    Accordion Item #1
+                   Best chocice
                   </button>
                 </h2>
                 <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    <strong>Bangladesh convention center </strong> This convention center is most useful for us.
                   </div>
                 </div>
               </div>
               <div class="accordion-item">
                 <h2 class="accordion-header" id="headingTwo">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Accordion Item #2
+                   Interactive pricing
                   </button>
                 </h2>
                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    <strong>Pricing fare</strong> Low pricing for you you can enjoy it.
                   </div>
                 </div>
               </div>
               <div class="accordion-item">
                 <h2 class="accordion-header" id="headingThree">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Accordion Item #3
+                  More facelites
                   </button>
                 </h2>
                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    <strong>More facelites</strong> are availabe here . scurity, decoration etc.
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <div class="col">
-
+            <div class=" w-100">
+              <img src="/images/people.png" alt="">
+            </div>
           </div>
         </div>
       </div>
     </section>
-
     </main>
     <!-- footer -->
     <footer>
-
+      <div class=" footer-area container">
+        <div class="row bg-dark ">
+          <div class="col-md-6 text-white d-flex align-items-center justify-content-center">
+            <small class="">&copy; all right reserved by bangladesh Convention-center</small>
+          </div>
+          <div class="col-md-3 position-relative  fot-heigth" >
+            <h3 class="fot-header text-white py-5  position-absolute top-0 start-50">GetTheApp</h3>
+            <div class="fot-right  position-absolute top-50 start-50">
+              <div class="fot-logo-apple">
+                <a href="https://www.apple.com/app-store/"><img class="w-75 m-2" src="images/apple.png  " alt=""> </a>
+              </div>
+              <div class="fot-logo-play">
+                <a href="https://play.google.com/store/apps"><img class="w-75 m-2"  src="images/play.png" alt=""> </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
